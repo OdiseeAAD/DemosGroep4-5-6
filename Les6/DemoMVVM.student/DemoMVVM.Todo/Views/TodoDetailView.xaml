@@ -34,5 +34,7 @@
             <Button Margin="5" Command="{Binding SaveCommand}">Save</Button>
             <Button Margin="5" >Cancel</Button>
         </StackPanel>
+        <local:DemoView
+            Grid.Row="4"/>
     </Grid>
 </UserControl>
